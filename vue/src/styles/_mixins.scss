@@ -1,0 +1,5 @@
+@mixin frameBorder($color) {
+    border-radius: 5px;
+    border: 2px double $color;
+    box-shadow: 10px 10px 10px -12px rgba(0,0,0,0.75);
+}
