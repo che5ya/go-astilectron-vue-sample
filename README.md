@@ -4,14 +4,15 @@ Go Asticlectron with vuejs example app
 run
 ```
 cd vue
-yarn
-yarn build
+npm i
+npm run build
 cd ..
-astilectron-bundler -v
-output/windows-amd64/vue-app.exe -v -dt
+go mod init ****
+go test
+astilectron-bundler
+output/windows-amd64/vue-app.exe
 ```
 
-This example can be used on Windows and Linux and maybe OSX (not tested)
-
+This example can be used on Windows and maybe OSX and Linux (not tested)
 
 Go-Astilectron https://github.com/asticode/go-astilectron
